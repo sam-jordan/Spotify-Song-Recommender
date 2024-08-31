@@ -23,8 +23,8 @@ static/styles/main_styles.css
 static/styles/sign_in_styles.css
 """
 
-CLIENT_ID = "89c9ac63001946d48ec9815545a185ae"
-CLIENT_SECRET = "f859cd86dca34674880192db1273f3df"
+CLIENT_ID = ${{ secrets.CLIENT_ID }}
+CLIENT_SECRET = ${{ secrets.CLIENT_SECRET }}
 
 AUDIO_FEATURES = ["acousticness", "danceability", "energy", "instrumentalness", 
                   "key", "loudness", "mode", "speechiness", "tempo", "valence"]
@@ -34,7 +34,7 @@ TOKEN_URL = "https://accounts.spotify.com/api/token"
 API_URL = "https://api.spotify.com/v1/"
 
 app = Flask(__name__)
-app.secret_key = "yourmum"
+app.secret_key = ${{ secrets.FLASK_SECRET_KEY }}
 
 
 @app.route("/")
