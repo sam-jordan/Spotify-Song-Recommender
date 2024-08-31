@@ -1,5 +1,3 @@
-# needs comments added - details about client id/secret and app password and approved users
-
 from requests import post, get
 from datetime import datetime
 import urllib.parse
