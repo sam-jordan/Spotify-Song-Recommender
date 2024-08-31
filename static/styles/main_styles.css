@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: #b3b3b3;
+    font-family: Trebuchet MS;
+    text-align: center;
+  }
+
+h1 {
+    background-color: #1db954;
+    color: white;
+    padding: 15px 25px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+a:link, a:visited {
+    color: #b3b3b3;
+    display: inline-flex;
+    font-family: Trebuchet MS;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 400px;
+    height: 70px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+a:hover, a:active {
+    color: white;
+}
+
+.playlist {
+    background-color: #212121;
+    border-radius: 10px;
+    height: 70px;
+    width: 400px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.playlist:hover {
+    background-color: #535353;
+    color: white;
+}
+
+small {
+    color: #b3b3b3; 
+    padding-left: 10px;
+}
+
+.content {
+    background-color: #121212;
+    border-radius: 10px;
+    width: 440px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+img {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: #b3b3b3;
+    font-family: Trebuchet MS;
+    text-align: center;
+  }
+
+h1 {
+  background-color: #1db954;
+  color: white;
+  padding: 15px 25px;
+  display: inline-block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.content {
+  background-color: #121212;
+  border-radius: 10px;
+  width: 440px;
+  display: inline-block;
+  margin-top: 10px;
+  min-height: 170px;
+}
+
+a:link, a:visited {
+  color: #b3b3b3;
+  background-color: #212121;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Trebuchet MS;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 345px;
+  margin: 50px;
+  padding: 20px 0 20px;
+}
+
+a:hover, a:active {
+  background-color: #535353;
+  color: white;
+}
+
+
